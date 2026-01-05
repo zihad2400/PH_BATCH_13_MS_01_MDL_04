@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(3, 88, 109);
+}
+nav{
+    background-color: darkcyan;
+}
+nav li,a{
+    display: inline;
+    text-decoration: none;
+    padding: 25px;
+    margin: 0 auto;
+    font-weight: bolder;
+    font-size: 1.25em;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+main img{
+    border: 2px solid purple;
+    border-radius: 25px;
+    height: 150px;
+    width: 150px;
+}
+
+
+
