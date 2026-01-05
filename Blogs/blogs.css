@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkslategrey;
+}
+
+nav li{
+ 
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+    
+    
+}
+
+nav li a:hover{
+    background-color: rgb(9, 99, 173);
+    border-radius: 7px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(54, 8, 73);
+    background-color: darkcyan;
+    border-radius: 5px;
+
+}
+
+
+img{
+    height: 350px;
+    width: 350px;
+    border: 5px solid salmon;
+    border-radius: 50%;
+}
+
+footer{
+    text-align: center;
+}
